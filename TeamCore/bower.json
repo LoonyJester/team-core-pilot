@@ -1,0 +1,25 @@
+{
+  "name": "TeamCore",
+  "homepage": "https://github.com/LoonyJester/team-core-pilot",
+  "authors": [
+    "Oleksiy M <Loony999@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "bootstrap": "v4.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "v4.0.0",
+    "jquery-validation": "1.17.0"
+  }
+}

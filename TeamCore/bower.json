@@ -19,7 +19,7 @@
     "bootstrap": "v4.0.0"
   },
   "dependencies": {
-    "bootstrap": "v4.0.0",
-    "jquery-validation": "1.17.0"
+    "jquery-validation": "1.17.0",
+    "bootstrap": "v3.3.7"
   }
 }

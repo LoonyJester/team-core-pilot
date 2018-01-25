@@ -5,4 +5,151 @@
   Layout = "_Layout";
 }
 
-<h2>Info</h2>
+<h2>Employee Info</h2>
+
+<form class="form-horizontal">
+  <div class="form-group">
+    <div class="col-sm-3">
+      <img src="~/images/employee-1.jpg" alt="a severe candidate" class="img-thumbnail employee-thumbnail col-sm-3">
+    </div>
+
+    <div class="col-sm-9">
+      <div class="form-group">
+        <label for="i1" class="col-sm-2 control-label">Full Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="i1" placeholder="Full Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="i2" class="col-sm-2 control-label">Company Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="i2" placeholder="Company Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="i3" class="col-sm-2 control-label">Full Name (native&nbsp;language)</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="i3" placeholder="Full Name (native language)">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="i4" class="col-sm-2 control-label">Patronymic</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="i4" placeholder="Patronymic">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="JobTitle" class="col-sm-2 control-label">Job Title</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="JobTitle" placeholder="Job Title">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="" class="col-sm-2 control-label">Department</label>
+    <div class="col-sm-10">
+      <select class="form-control" id="Department">
+        <option>-- Select --</option>
+        <option>Department 1</option>
+        <option selected="selected">Department 2</option>
+        <option>Department 3</option>
+        <option>Department 4</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="Technology" class="col-sm-2 control-label">Technology</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="Technology" placeholder="Technology">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="PersonalEmail" class="col-sm-2 control-label">Personal Email</label>
+    <div class="col-sm-10">
+      <input type="Email" class="form-control" id="PersonalEmail" placeholder="Personal Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="Skype" class="col-sm-2 control-label">Skype</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="Skype" placeholder="Skype">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="MobileNumber" class="col-sm-2 control-label">Mobile Number</label>
+    <div class="col-sm-10">
+      <input type="tel" class="form-control" id="MobileNumber" placeholder="Mobile Number">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="MobileNumber" class="col-sm-2 control-label">&nbsp;</label>
+    <div class="col-sm-10">
+      <div class="input-group">
+        <input type="tel" class="form-control " id="MobileNumber1" placeholder="Mobile Number">
+        <div class="input-group-btn">
+          <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="MobileNumber" class="col-sm-2 control-label">&nbsp;</label>
+    <div class="col-sm-10">
+      <div class="input-group">
+        <input type="tel" class="form-control " id="MobileNumber2" placeholder="Mobile Number">
+        <div class="input-group-btn">
+          <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+          <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+  <div class="form-group">
+    <label for="Birthday" class="col-sm-2 control-label">Birthday</label>
+    <div class="col-sm-10">
+      <input type="date" class="form-control" id="Birthday" placeholder="Birthday">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="StartDate" class="col-sm-2 control-label">Start Date</label>
+    <div class="col-sm-10">
+      <input type="date" class="form-control" id="StartDate" placeholder="Start Date">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="TerminationDate" class="col-sm-2 control-label">StartDate</label>
+    <div class="col-sm-10">
+      <input type="date" class="form-control" id="TerminationDate" placeholder="Termination Date">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="BioUrl" class="col-sm-2 control-label">Bio Url</label>
+    <div class="col-sm-10">
+      <input type="url" class="form-control" id="BioUrl" placeholder="Bio Url">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="Notes" class="col-sm-2 control-label">Notes</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" id="Notes" placeholder="Notes"></textarea>
+    </div>
+  </div>
+
+
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" class="btn btn-primary">Save</button>
+      <button type="button" class="btn btn-link">Cancel</button>
+    </div>
+  </div>
+</form>

@@ -113,6 +113,10 @@
     #no-more-tables div.table-container {
         margin: 0;
     }
+    img.employee-thumbnail {
+        width: 200px;
+
+    }
 }
 
 .filter-container {

@@ -13,27 +13,112 @@
 
   <div class="panel panel-default">
     <div class="panel-body">
-      <div class="row">
 
+
+
+
+      <div class="row table-container">
+        <table class="col-xs-12 table-bordered table-striped table-condensed">
+          <thead>
+          <tr>
+            <th>Name</th>
+            <th>Job Title</th>
+            <th>Status</th>
+            <th>Involvement, %</th>
+            <th></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td data-title="Name:">John Smith</td>
+            <td data-title="Job Title:">Developer</td>
+            <td data-title="Status">Hired</td>
+            <td data-title="Invo..., %">146</td>
+            <td data-title="">
+              <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+              <a class="btn btn-link" title="Assign to project"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+            </td>
+          </tr>
+          <tr>
+            <td data-title="Name:">Sarah Connor</td>
+            <td data-title="Job Title:">Team lead</td>
+            <td data-title="Status">Candidate</td>
+            <td data-title="Invo..., %">0</td>
+            <td data-title="">
+              <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+            </td>
+          </tr>
+          <tr>
+            <td data-title="Name:">Arthur Dent</td>
+            <td data-title="Job Title:">Artist</td>
+            <td data-title="Status">Hired</td>
+            <td data-title="Invo..., %">120</td>
+            <td data-title="">
+              <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+              <a class="btn btn-link" title="Assign to project"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+            </td>
+          </tr>
+          <tr>
+            <td data-title="Name:">Thomas A. Anderson</td>
+            <td data-title="Job Title:">The One</td>
+            <td data-title="Status">Candidate</td>
+            <td data-title="Invo..., %">0</td>
+            <td data-title="">
+              <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+            </td>
+          </tr>
+          <tr>
+            <td data-title="Name:">John Herod</td>
+            <td data-title="Job Title:">Cleaner</td>
+            <td data-title="Status">Hired</td>
+            <td data-title="Invo..., %">170</td>
+            <td data-title="">
+              <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+              <a class="btn btn-link" title="Assign to project"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+            </td>
+          </tr>
+          <tr>
+            <td data-title="Name:">Dr. Emmett "Doc" Brown</td>
+            <td data-title="Job Title:">Senior Developer</td>
+            <td data-title="Status">Hired</td>
+            <td data-title="Invo..., %">170</td>
+            <td data-title="">
+              <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+              <a class="btn btn-link" title="Assign to project"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+            </td>
+          </tr>
+          <tr>
+            <td data-title="Name:">Luke Skywalker</td>
+            <td data-title="Job Title:">Junoir Developer</td>
+            <td data-title="Status">Hired</td>
+            <td data-title="Invo..., %">100</td>
+            <td data-title="">
+              <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+              <a class="btn btn-link" title="Assign to project"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
       </div>
 
+
       <div class="row">
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-6 col-sm-12">
           <div class="dataTables_info" id="dataTables-example_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
         </div>
-        <div class="col-md-3 col-sm-12">
-          <div class="dataTables_length" id="dataTables-example_length">
-            <label>
-              Show
-              <select name="dataTables-example_length" aria-controls="dataTables-example" class="form-control input-sm">
-                <option value="10">10</option>
-                <option value="25">25</option>
-                <option value="50">50</option>
-                <option value="100">100</option>
-              </select> entries
-            </label>
-          </div>
-        </div>
+        @*        <div class="col-md-3 col-sm-12">*@
+        @*          <div class="dataTables_length" id="dataTables-example_length">*@
+        @*            <label>*@
+        @*              Show*@
+        @*              <select name="dataTables-example_length" aria-controls="dataTables-example" class="form-control input-sm">*@
+        @*                <option value="10">10</option>*@
+        @*                <option value="25">25</option>*@
+        @*                <option value="50">50</option>*@
+        @*                <option value="100">100</option>*@
+        @*              </select> entries*@
+        @*            </label>*@
+        @*          </div>*@
+        @*        </div>*@
         <div class="col-md-6 col-sm-12">
           <div class="dataTables_paginate paging_simple_numbers" id="dataTables-example_paginate">
             <ul class="pagination">
@@ -65,86 +150,7 @@
           </div>
         </div>
       </div>
-      
-      
-      <div class="row" >
-        <table class="col-xs-12 table-bordered table-striped table-condensed">
-          <thead>
-          <tr>
-            <th>Name</th>
-            <th>Job Title</th>
-            <th>Status</th>
-            <th>Involvement, %</th>
-            <th></th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td data-title="Name:">John Smith</td>
-            <td data-title="Job Title:">Developer</td>
-            <td data-title="Status">Hired</td>
-            <td data-title="Invo..., %">50</td>
-            <td data-title=""><a class="btn btn-link"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a><a class="btn btn-link"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a></td>
-          </tr>
-          <tr>
-            <td data-title="Name:">Sarah Connor</td>
-            <td data-title="Job Title:">Team lead</td>
-            <td data-title="Status">Candidate</td>
-            <td data-title="Invo..., %">0</td>
-            <td data-title=""><a class="btn btn-link"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a></td>
-          </tr>
-          <tr>
-            <td data-title="Name:">Sarah Connor</td>
-            <td data-title="Job Title:">Team lead</td>
-            <td data-title="Status">Hired</td>
-            <td data-title="Invo..., %">120</td>
-            <td data-title=""><a class="btn btn-link"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a><a class="btn btn-link"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a></td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
-  </div>
-
-
-
-
-
-  <div class="row">
-    <table class="col-xs-12 table-bordered table-striped table-condensed">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Job Title</th>
-          <th>Status</th>
-          <th>Involvement, %</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td data-title="Name:">John Smith</td>
-          <td data-title="Job Title:">Developer</td>
-          <td data-title="Status">Hired</td>
-          <td data-title="Invo..., %">50</td>
-          <td data-title=""><a class="btn btn-link"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a><a class="btn btn-link"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a></td>
-        </tr>
-        <tr>
-          <td data-title="Name:">Sarah Connor</td>
-          <td data-title="Job Title:">Team lead</td>
-          <td data-title="Status">Candidate</td>
-          <td data-title="Invo..., %">0</td>
-          <td data-title=""><a class="btn btn-link"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a></td>
-        </tr>
-        <tr>
-          <td data-title="Name:">Sarah Connor</td>
-          <td data-title="Job Title:">Team lead</td>
-          <td data-title="Status">Hired</td>
-          <td data-title="Invo..., %">120</td>
-          <td data-title=""><a class="btn btn-link"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a><a class="btn btn-link"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a></td>
-        </tr>
-      </tbody>
-    </table>
   </div>
 </div>
 

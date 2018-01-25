@@ -115,7 +115,9 @@
     }
 }
 
-
+.filter-container {
+    padding: 15px;
+}
 
 div.dataTables_length label, 
 div.dataTables_length label select {
@@ -143,4 +145,8 @@ div.dataTables_paginate {
 div.dataTables_paginate ul.pagination {
     margin: 2px 0;
     white-space: nowrap;
+}
+.form-inline .form-group {
+    padding-bottom: .5em;
+    margin-bottom: 0;
 }

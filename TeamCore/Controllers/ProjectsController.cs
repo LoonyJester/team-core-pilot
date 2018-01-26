@@ -10,6 +10,7 @@ namespace TeamCore.Controllers
             return View();
         }
 
+        [HttpGet, Route(Shared.Routes.Project.Add)]
         [HttpGet, Route(Shared.Routes.Project.Info)]
         public IActionResult Info()
         {

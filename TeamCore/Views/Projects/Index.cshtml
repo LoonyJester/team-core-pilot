@@ -4,5 +4,153 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>List of Projects</h2>
+
+<div id="no-more-tables">
+
+  <div class="panel panel-default">
+
+
+
+    <div class="panel-body">
+
+      <div class="row filter-container">
+        <form class="form-inline">
+
+          <div class="form-group">
+            <label class="sr-only" for="f1">Project Name</label>
+            <input type="text" class="form-control" id="f1" placeholder="Project Name">
+          </div>
+
+          <div class="form-group">
+            <label class="sr-only" for="f2">Start date</label>
+            <input type="date" class="form-control" id="f2" placeholder="Start date">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="f3">End date</label>
+            <input type="date" class="form-control" id="f3" placeholder="End date">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="f7">Status</label>
+            <select class="form-control" id="f7">
+              <option>Select a Status</option>
+              <option selected="selected">Active</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <button type="button" class="btn btn-primary">Search</button>
+            <button type="button" class="btn btn-link">Clear</button>
+          </div>
+        </form>
+      </div>
+
+
+      <div class="row table-container">
+        <table class="col-xs-12 table-bordered table-striped table-condensed">
+          <thead>
+            <tr>
+              <th>Project Name</th>
+              <th>Start date</th>
+              <th>End date</th>
+              <th>Status</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-title="Project Name:">Team Core</td>
+              <td data-title="Start date:">03/03/2018</td>
+              <td data-title="End date">&nbsp;</td>
+              <td data-title="Status">Agreement</td>
+              <td data-title="">
+                <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                <a class="btn btn-link" title="Assigned Employees"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+              </td>
+            </tr>
+            <tr>
+              <td data-title="Project Name:">Project A</td>
+              <td data-title="Start date:">01/10/2017</td>
+              <td data-title="End date">12/12/2017</td>
+              <td data-title="Status">Closed</td>
+              <td data-title="">
+                <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+              </td>
+            </tr>
+            <tr>
+              <td data-title="Project Name:">Long way</td>
+              <td data-title="Start date:">01/10/2017</td>
+              <td data-title="End date">31/12/2020</td>
+              <td data-title="Status">Active</td>
+              <td data-title="">
+                <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                <a class="btn btn-link" title="Assigned Employees"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+              </td>
+            </tr>
+            <tr>
+              <td data-title="Project Name:">Project T1000</td>
+              <td data-title="Start date:">31/10/2017</td>
+              <td data-title="End date">&nbsp;</td>
+              <td data-title="Status">Active</td>
+              <td data-title="">
+                <a class="btn btn-link" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+                <a class="btn btn-link" title="Assigned Employees"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span></a>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="dataTables_info" id="dataTables-example_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div>
+        </div>
+        @*        <div class="col-md-3 col-sm-12">*@
+        @*          <div class="dataTables_length" id="dataTables-example_length">*@
+        @*            <label>*@
+        @*              Show*@
+        @*              <select name="dataTables-example_length" aria-controls="dataTables-example" class="form-control input-sm">*@
+        @*                <option value="10">10</option>*@
+        @*                <option value="25">25</option>*@
+        @*                <option value="50">50</option>*@
+        @*                <option value="100">100</option>*@
+        @*              </select> entries*@
+        @*            </label>*@
+        @*          </div>*@
+        @*        </div>*@
+        <div class="col-md-6 col-sm-12">
+          <div class="dataTables_paginate" id="dataTables-example_paginate">
+            <ul class="pagination">
+              <li class="previous disabled" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_previous">
+                <a href="#"><</a>
+              </li>
+              <li class="active" aria-controls="dataTables-example" tabindex="0">
+                <a href="#">1</a>
+              </li>
+              <li class="" aria-controls="dataTables-example" tabindex="0">
+                <a href="#">2</a>
+              </li>
+              <li class="" aria-controls="dataTables-example" tabindex="0">
+                <a href="#">3</a>
+              </li>
+              <li class="" aria-controls="dataTables-example" tabindex="0">
+                <a href="#">4</a>
+              </li>
+              <li class="" aria-controls="dataTables-example" tabindex="0">
+                <a href="#">5</a>
+              </li>
+              <li class="" aria-controls="dataTables-example" tabindex="0">
+                <a href="#">6</a>
+              </li>
+              <li class="next" aria-controls="dataTables-example" tabindex="0" id="dataTables-example_next">
+                <a href="#">></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
